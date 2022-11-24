@@ -117,9 +117,9 @@ public:
 	}
 };
 
-class End_Hole {
+class EndHole {
 public:
-	End_Hole(float x, float y, float ang) : pos_x{ x }, pos_y{ y }, angle{ ang } {};
+	EndHole(float x, float y, float ang) : pos_x{ x }, pos_y{ y }, angle{ ang } {};
 
 	float *position() {
 		return { this->pos_x, this->pos_y };
